@@ -1,0 +1,25 @@
+# Please don't modify this file, without first checking if it makes sense to
+# adopt for most other Kapost projects. Ideally, we would keep these files as
+# similar as possible to ease maintainability. Instead, open a PR in the
+# codeclimate-common repo at https://github.com/kapost/codeclimate-common
+
+
+"app/controllers":
+  NestedIterators:
+    max_allowed_nesting: 2
+  UnusedPrivateMethod:
+    enabled: false
+"app/helpers":
+  UtilityFunction:
+    enabled: false
+"spec/support":
+  UtilityFunction:
+    enabled: false
+
+# This one just makes sure the Class/Module has a comment. Dumb.
+IrresponsibleModule:
+  enabled: false
+
+# Rubocop has this covered already
+TooManyStatements:
+  enabled: false
