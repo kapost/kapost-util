@@ -17,6 +17,8 @@ Gem::Specification.new do |spec|
     spec.cert_chain = [File.expand_path("~/.ssh/gem-public.pem")]
   end
 
+  spec.add_dependency "activesupport", ">= 4.2", "< 6.0.0"
+
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 11.0"
   spec.add_development_dependency "gemsmith", "~> 7.7"
