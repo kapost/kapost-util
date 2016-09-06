@@ -6,9 +6,9 @@ Gem::Specification.new do |spec|
   spec.version = KapostUtil::Identity.version
   spec.platform = Gem::Platform::RUBY
   spec.authors = ["Paul Sadauskas"]
-  spec.email = ["psadauskas@gmail.com"]
-  spec.homepage = "https://github.com/paul/kapost-util"
-  spec.summary = ""
+  spec.email = ["paul.sadauskas@kapost.com"]
+  spec.homepage = "https://github.com/kapost/kapost-util"
+  spec.summary = "A variety of useful tools that don't deserve thier own gem/repo."
   spec.description = ""
   spec.license = "MIT"
 
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
     spec.cert_chain = [File.expand_path("~/.ssh/gem-public.pem")]
   end
 
-  spec.add_dependency "activesupport", ">= 4.2", "< 6.0.0"
+  spec.add_development_dependency "activesupport", ">= 4.2", "< 6.0.0"
 
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 11.0"

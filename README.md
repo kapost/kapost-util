@@ -1,10 +1,10 @@
 # KapostUtil
 
 [![Gem Version](https://badge.fury.io/rb/kapost-util.svg)](http://badge.fury.io/rb/kapost-util)
-[![Code Climate GPA](https://codeclimate.com/github/paul/kapost-util.svg)](https://codeclimate.com/github/paul/kapost-util)
-[![Code Climate Coverage](https://codeclimate.com/github/paul/kapost-util/coverage.svg)](https://codeclimate.com/github/paul/kapost-util)
-[![Gemnasium Status](https://gemnasium.com/paul/kapost-util.svg)](https://gemnasium.com/paul/kapost-util)
-[![Travis CI Status](https://secure.travis-ci.org/paul/kapost-util.svg)](https://travis-ci.org/paul/kapost-util)
+[![Code Climate GPA](https://codeclimate.com/github/kapost/kapost-util.svg)](https://codeclimate.com/github/kapost/kapost-util)
+[![Code Climate Coverage](https://codeclimate.com/github/kapost/kapost-util/coverage.svg)](https://codeclimate.com/github/kapost/kapost-util)
+[![Gemnasium Status](https://gemnasium.com/kapost/kapost-util.svg)](https://gemnasium.com/kapost/kapost-util)
+[![Travis CI Status](https://secure.travis-ci.org/kapost/kapost-util.svg)](https://travis-ci.org/kapost/kapost-util)
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
@@ -88,4 +88,4 @@ Built with [Gemsmith](https://github.com/bkuhlmann/gemsmith).
 
 # Credits
 
-Developed by [Paul Sadauskas]() at []().
+Developed by [Paul Sadauskas](paul.sadauskas@kapost.com) at [Kapost](http://kapost.com).
