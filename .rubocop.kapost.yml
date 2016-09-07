@@ -61,6 +61,11 @@ Style/MultilineMethodCallIndentation:
   Exclude:
     - "spec/**/*.rb"
 
+# These are better handled by reek
+Metrics/MethodLength:
+  Enabled: false
+Metrics/ParameterLists:
+  Enabled: false
 
 # Rubocop's global exclude seems to fail to exclude the bin/ dir, so set all
 # the cops that are failing manually, since most of these files are
