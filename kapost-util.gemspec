@@ -17,6 +17,11 @@ Gem::Specification.new do |spec|
     spec.cert_chain = [File.expand_path("~/.ssh/gem-public.pem")]
   end
 
+  spec.metadata = {
+    "allowed_push_key" => "kapost_gems_key",
+    "allowed_push_host" => "https://gems.kapost.com"
+  }
+
   spec.add_development_dependency "activesupport", ">= 4.2", "< 6.0.0"
 
   spec.add_development_dependency "bundler", "~> 1.12"
